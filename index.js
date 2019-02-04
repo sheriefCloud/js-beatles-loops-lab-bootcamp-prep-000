@@ -19,7 +19,7 @@ const facts = ["He was the last Beatle to learn to drive","He was never a vegeta
 
 function johnLennonFacts (facts) {
   var johnLennonFacts = [];
-  var i;
+  var i=0;
   while (i < facts.length) {
     var stringEdit = facts[i] + "!!!";
     johnLennonFacts.push(stringEdit);
