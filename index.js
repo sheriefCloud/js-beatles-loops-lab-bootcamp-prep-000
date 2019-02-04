@@ -30,9 +30,9 @@ function johnLennonFacts (facts) {
 }
 
 var iLoveTheBeatles = function  (n) {
-
+  var outputArray = [];
   if (n != 17) {
-    var outputArray = [];
+
     var i = -1;
     var increment = function() {
       i= i + 1;
