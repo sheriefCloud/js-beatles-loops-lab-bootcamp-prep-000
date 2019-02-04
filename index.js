@@ -40,7 +40,7 @@ var iLoveTheBeatles = function  (n) {
   do {
     outputArray.push("I love the beatles!")
   }
-  while (increment() = n);
+  while (increment() < n);
 
   return outputArray;
 }
