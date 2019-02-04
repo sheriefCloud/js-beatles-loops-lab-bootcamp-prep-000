@@ -36,15 +36,11 @@ var iLoveTheBeatles = function  (n) {
     i= i + 1;
     return i;
   }
-  
+
   do {
     outputArray.push("I love the beatles!")
   }
   while (increment() = n);
-  
+
   return outputArray;
 }
-
-
-
-
